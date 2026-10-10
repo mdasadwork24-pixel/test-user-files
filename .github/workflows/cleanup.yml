@@ -26,7 +26,7 @@ jobs:
         run: |
           now=$(date +%s)
 
-          ে
+          
           git ls-files | while read -r file; do
             
             if [[ "$file" == .github/* ]]; then
